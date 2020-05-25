@@ -244,9 +244,14 @@
         </section>
 
         <!-- contact -->
-        <section>
-            <hgroup  style="text-align: center;  line-height: 20px; margin-top: 105px">
-                <h2 style="font-size: 40px; font-weight: 500;"> CONTACT</h2>
+        <section
+        style="position: relative; background-image: url(images/聯絡我們-bg.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%; height: 1000px;">
+        
+        <hr style="width:580px; position: absolute; top:103px; left: 210px;" />
+        <hr style="width:580px; position: absolute; top:103px; right: 210px;"/>    
+        
+            <hgroup  style="text-align: center;  line-height: 20px; padding-top: 77px;">    
+                <h2 style="font-size: 40px; font-weight: 500;"> CONTACT </h2>
                 <h3 style="font-weight: 500; font-size: 23px;">聯絡我們</h3>
             </hgroup>
 
@@ -258,11 +263,11 @@
             </p>
 
             <!-- form -->
-            <form action="#">
+            <form action="#" style="text-align: center;">
 
                 <!-- name -->
-                <p>您的大名 <mark>*</mark> </p>
-                <input type="text" name="name" />
+                <p style="display: inline-block;">您的大名 <mark>*</mark> </p>
+                <input type="text" name="name" style="border-radius: 5px ;box-sizing: border-box; "/>
 
                 <!-- sex -->
                 <input id="female" type="radio" name="sex" value="f" />
@@ -271,21 +276,21 @@
                 <label for="male">先生</label>
 
                 <!-- phone -->
-                <p>連絡電話 <mark>*</mark> </p>
+                <p style="display: inline-block;">連絡電話 <mark>*</mark> </p>
                 <input type="text" name="phone" />
 
                 <!-- e-mail -->
-                <p>電子郵件 <mark>*</mark> </p>
+                <p style="display: inline-block;">電子郵件 <mark>*</mark> </p>
                 <input type="email" name="email" />
 
                 <!-- company -->
-                <p>公司名稱</p>
+                <p style="display: inline-block;">公司名稱</p>
                 <input type="text" name="company-name" />
-                <p>公司電話</p>
+                <p style="display: inline-block;">公司電話</p>
                 <input type="text" name="company-phone" />
 
                 <!-- ask -->
-                <p>
+                <p style="display: inline-block;">
                     詢問項目(可複選)
                     <label><input type="checkbox" name="inquiry-item" value="machining" />壓克力加工製品</label>
                     <label><input type="checkbox" name="inquiry-item" value="character" />壓克力立體字</label>
@@ -297,7 +302,7 @@
                     <label><input type="checkbox" name="inquiry-item" value="other" />其他</label>
                     <input type="text" name="other" placeholder="請輸入" />
                 </p>
-                <p>詢問內容 <mark>*</mark></p>
+                <p style="display: inline-block;">詢問內容 <mark>*</mark></p>
                 <textarea name="comments"></textarea>
                 <button type="submit">確認送出</button>
             </form>
