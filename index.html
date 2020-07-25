@@ -46,22 +46,22 @@
 
 <body>
 
-    <header style="display: flex; width: 100%; height: 75px; background-color: #0d3d73; color:white;">
-        <a href="#" style="font-size: 20px; font-weight: 500; padding-top:15px; width: 300px; padding-left: 10%;">
-            <img src="images/logo.svg" width="55px" alt="友信廣告" style="float:left; margin-right: 25px;">
+    <header style="display: flex; width: 100%; height: 75px; background-color: #0d3d73; color:white; padding: 0 10%;
+    box-sizing: border-box;">
+        <a href="#" style="font-size: 20px; font-weight: 500; padding-top:15px; width: 300px;">
+            <img src="images/logo.svg" width="55px" alt="友信廣告" style="float:left;">
             友信廣告壓克力
             <p style="font-size: 12px; letter-spacing:0.6px; font-weight: 400;">YEOU SHINN ACRYLIC</p>
         </a>
         <!-- end Logo -->
 
         <nav style="width:calc(100% - 300px);">
-            <ul
-                style="display: flex ; Justify-content: flex-end; padding-top: 18px; margin-right: 15%;font-size: 16px;">
-                <li style="padding: 8px 30px;"><a href="#">關於我們</a></li>
-                <li style="padding: 8px 30px;"><a href="#">服務項目</a></li>
-                <li style="padding: 8px 30px;"><a href="#">機台設備</a></li>
-                <li style="padding: 8px 30px;"><a href="#">作品展示</a></li>
-                <li style="padding: 8px 0 8px 30px;"><a href="#">聯絡我們</a></li>
+            <ul style="display: flex; Justify-content: flex-end; padding-top: 25px; font-size: 16px;">
+                <li><a href="#aboutus" style="padding: 8px 30px;">關於我們</a></li>
+                <li><a href="#service" style="padding: 8px 30px;">服務項目</a></li>
+                <li><a href="#machine" style="padding: 8px 30px;">機台設備</a></li>
+                <li><a href="#projects" style="padding: 8px 30px;">作品展示</a></li>
+                <li><a href="#contact" style="padding: 8px 0 8px 30px;">聯絡我們</a></li>
             </ul>
         </nav>
     </header>
@@ -83,7 +83,7 @@
         </section>
 
         <!-- about us -->
-        <section
+        <section id="aboutus"
             style="background-image: url(images/關於我們-bg.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%; padding: 90px 0;">
             <hgroup style="text-align: center; line-height: 20px; color: #0d3d73;">
                 <h2 style="font-size: 30px; font-weight: 400; letter-spacing: 1.5px;">ABOUT US</h2>
@@ -107,7 +107,7 @@
         </section>
 
         <!-- our service -->
-        <section style="line-height: 1.7; padding-bottom: 60px; background-color: #ffffff;">
+        <section id="service" style="line-height: 1.7; padding-bottom: 60px; background-color: #ffffff;">
             <hgroup style="text-align: center; line-height: 20px; padding-top:80px; color: #0d3d73;">
                 <h2 style="font-size: 30px; font-weight: 400; letter-spacing: 1.5px;">OUR SERVICE</h2>
                 <h3 style="font-size: 20px; font-weight: 500;">服務項目</h3>
@@ -149,7 +149,7 @@
         </section>
 
         <!-- 雷射切割雕刻機 -->
-        <section
+        <section id="machine"
             style="position: relative;background-image: url(images/雷射雕刻切割機-bg.png) ; background-size: cover; background-position: center left; background-repeat: no-repeat; width: 100%; height: 350px ;">
             <h2
                 style="position: absolute; left:110px ; top:90px ; font-size: 28px; margin-bottom: 30px; font-weight: 500;">
@@ -183,7 +183,7 @@
         </section>
 
         <!-- Projects -->
-        <section style="line-height: 1.7; padding: 80px 0; background-color: #ebebeb;">
+        <section id="projects" style="line-height: 1.7; padding: 80px 0; background-color: #ebebeb;">
             <hgroup style="text-align: center; line-height: 20px; color: #0d3d73;">
                 <h2 style="font-size: 30px; font-weight: 400; letter-spacing: 1.5px;">PROJECTS</h2>
                 <h3 style="font-size: 20px; font-weight: 500;">作品展示</h3>
@@ -297,7 +297,7 @@
         </section>
 
         <!-- contact -->
-        <section
+        <section id="contact"
             style="background-image: url(images/聯絡我們-bg.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%; padding: 90px 0;">
             <hgroup style="text-align: center; line-height: 20px; color: #0d3d73;">
                 <h2 style="font-size: 30px; font-weight: 400; letter-spacing: 1.5px;">CONTACT</h2>
